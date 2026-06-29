@@ -43,3 +43,7 @@ LastName = "Kansara"
 MoNo = 123456789
 print(FirstName + LastName + str(MoNo))
 print(type(MoNo))
+
+marks = 10
+print(type(marks))
+print(float(marks))
