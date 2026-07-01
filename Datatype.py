@@ -152,3 +152,53 @@ print(x.split())
 
 y = "This is montain. Mountain is good"
 print(y.split("is",1))
+
+Note = "This is park, Park is good"
+
+print(Note.split("i"))
+print(Note.split(" ",2))
+
+# Count() :
+    # To identify the occurance of word or char in the string
+
+    # Syntax :
+        # variable_name.count(expression)
+
+    # Example :
+Note = Note.upper()
+print(Note)
+print(Note.count("PARK"))
+
+# strip 
+    # Strip method is use to remove whitespace from begining of string and 
+    #     ending of string.
+    # If we have a space at the begining and ending of string that space is 
+    #     consider as whitespace.
+
+    # Syntax :
+        # variable_name.strip()
+
+    # Example :
+whitespace = "   This is good    "
+print(whitespace)
+print(whitespace.strip())
+
+# lstrip :
+    # Remove whitespace from left side only. If we have a whitespace in the
+        # right side then lstrip method will not remove that
+    
+    #Syntax :
+        # variable_name.lstrip()
+
+    # Example :
+print(whitespace.lstrip())
+
+# rstrip
+    #Remove whitespace from right side of the string and left side whitespace will
+        # remain same.
+
+    # Syntax :
+        # variable_name.rstrip()
+    
+    # Example :
+print(whitespace.rstrip())
