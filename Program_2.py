@@ -171,3 +171,108 @@ print(fruitlist)
 # Example :
 fruitlist.clear()
 print(fruitlist)
+
+# Tuple :
+    # Tuple is similar to the list datatype. Only the difference is we can not modify the value
+    #     stored inside tuple just like a list.
+    # Tuple is usWe can use tuple when we have to display some constant value. Constant means the 
+    #     values that never change.
+    # Ex : If we need to display gender, instead of creating two different variable we can use tuple.
+    # Tuple always create with the round braces.
+    # Single value inside a () is not consider as a tuple. To convert into tuple we need to add comma
+    #    after value.
+
+    # Syntax :
+        # variable_name = ()
+
+    # Example :
+tup = () # Empty tuple
+print(type(tup))
+
+tup = (4,7)
+print(tup)
+
+tupsinglevalue = (1,)
+print(tupsinglevalue)
+print(type(tupsinglevalue))
+
+tuplestring = ("abc", )
+print(type(tuplestring))
+
+# identify the length of tuple
+tup = (1,4,6,8,9)
+print(tup)
+print(f"Length of tuple is {len(tup)}")
+
+# Access value of tuple :
+print(tup[1])
+
+# tup[1] = 11 # This statement throw error as we can not modify or add item in tuple.
+
+# Unpack tuple value :
+vegetable = ("Potato","Tomato","Carrot","Brinjal") #Pack Tuple
+
+# veg1 = vegetable[0]
+# veg2 = vegetable[1]
+# veg3 = vegetable[2]
+# veg4 = vegetable[3]
+
+(veg1,veg2,veg3,veg4) = vegetable # Unpack Tuple
+print(veg3)
+
+# Modify Tuple
+ # To modify the tuple we need to use casting method.
+
+vegetable = list(vegetable) # casting
+print(type(vegetable), vegetable)
+vegetable.append("Cabbage")
+print(vegetable)
+vegetable = tuple(vegetable)
+print(type(vegetable) , vegetable)
+
+# Dictionary :
+    # In dictionary we have a key and value pair.
+    # When we need to display data with the proper text we can use dictionary.
+    # We can have multiple keys in dictionary but the keys must be unique. Duplicate key is 
+    #     not allowed in dictionary.
+    # Dictionary represent with the curley braces.
+
+    # Syntax :
+        # variable_name = {}
+
+    # Example :
+AccountHolder = {} # Empty Dictionary
+print(type(AccountHolder))
+
+# ["Darshit","Kansara",25,"06/05/1192","Vadodara",390025]
+AccountHolder = {
+    "Firstname" : "Darshit",
+    "Lastname" : "Kansara",
+    "Age" : 25,
+    "DOB" : "05/05/1192",
+    "City" : "Vadodara",
+    "ZipCode" : 390025  
+}
+
+print(AccountHolder)
+
+Name = AccountHolder["Firstname"] + AccountHolder["Lastname"]
+print(Name)
+Firstname = AccountHolder.get("Firstname")
+print(Firstname)
+
+# Add value into existing dictionary
+AccountHolder["MobileNo"] = 123456789
+
+print(AccountHolder)
+
+AccountHolder["MobileNo"] = 8971592749
+print(AccountHolder)
+
+# Copy of dictionary
+AccountHolder1 = AccountHolder.copy()
+print(AccountHolder1)
+
+# Add a duplicate key
+AccountHolder["Age"] = 26
+print(AccountHolder)
