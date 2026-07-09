@@ -92,6 +92,92 @@ elif car == "Skoda":
 else:
     print("Drop plan")
 
+# Logical Operators :
+# and :
+#     And operator denotes all the condition must be true then only condition is satisfied.
+
+#     Example :
+#         5 > 6 and 6 > 5 = False
+#         6 > 4 and 10 < 12 = True
+# or :
+#     If any condition is true then we will get output as a true. If all condition is false then only
+#         we will get as false.
+
+#     Example :
+#         5 > 6 or 6 > 5 = True
+#         5 > 6 or 10 > 12 = False
+
+# not :
+#     Not convert actual output into opposite. 
+#     If we get o/p as a true then not convert it into false. And of we get o/p as false then
+#         not convert into true.
+
+#     Example :
+#         5 > 6 = True
+#         10 < 12 = False
+
+# Example
+if 5 > 6 and 6 > 5:
+    print("if statement executed")
+else:
+    print("Else statement executed")
+
+if 6 > 5 and 10 < 12:
+    print("if statement executed")
+else:
+    print("else statement executed")
+
+if 6 > 5 or 10 > 12:
+    print("If statement executed")
+else:
+    print("Else statement executed")
+
+if (6 > 5 or 10 > 12) and (10 > 12 or 5 < 6): # True and True
+    print("If statement executed")
+else:
+    print("Else statament executed")
+
+if (6 > 5 and 10 < 12) or (10 > 12 and 5 < 6): # True or False
+    print("If statement executed")
+else:
+    print("Else statament executed")
+
+if not 6 > 5:
+    print("If statement execute")
+else:
+    print("Else statement execute")
+
+if not (6 > 5 and 10 < 12) and not (6 > 5 and 10 > 12): # False and True = False
+    print("If statement executed")
+else:
+    print("Else statament executed")
+
+if not (6 < 5 and 10 < 12) and not (6 > 5 and 10 > 12): # True and True = True
+    print("If statement executed")
+else:
+    print("Else statament executed")
+
+# Pass :
+#    Pass keyword use to write inside if or else statement if actual logic is not implemented.
+
+    # Example :
+if 5 < 6:
+    pass
+else:
+    print("else execute") 
+
+# Assignment :
+    # Take one varible and assign mark between 0 - 100.
+    # Write a code that return grade based on mark value.
+    #     Condition :
+    #         90 - 100 = Grade A
+    #         75 - 89 = Grade B
+    #         65 - 74 = Grade C
+    #         55 - 64 = Grade D
+    #         35 - 54 = Grade E
+    #         Below 35 = Grade F
+
+
 
 
 
