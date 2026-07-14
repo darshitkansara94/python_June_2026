@@ -168,4 +168,84 @@ print(a <= b)
             # and
             # or
             # not
-        # Ternary Operators
+        # Ternary Operators :
+            # Ternary operator return o/p based on condition just like if else.
+            # This operator we can use when we need to display single o/p. If we have a multiple
+            #     line of code  inside condition then better to use if..else.
+
+            # Syntax :
+                # variable_name = o/p if condition else o/p
+
+            # Example :
+print("Ternary Operator")
+fruit = "Banana"
+x = "Banana" if fruit == "banana" else "Fruit is not banana"
+print(x)
+
+# Verify days by number
+day = 5
+# "Mon" if day = 1
+# "Tue" if day = 2
+# "Wed" if day = 3
+# "Thu" if day = 4
+# "Fri" if day = 5
+# "Sat" if day = 6
+# 'Sun' if day = 7
+
+currentday = "Monday" if day == 1 else "Tuesday" if day == 2 else "Wednesday" if day == 3 else "Thursday"
+print(currentday)
+
+        # Identity Operators :
+        #   If i want to verify that my two object or variable is point to the same or not.
+        #   If both are point to each other then it will return true else false.
+        #   We have two operators in indentity :
+
+x = ["Banana","Mango"]
+y = ["Banana","Mango"]
+
+            # is :
+            #   if both the object point to each other then it will return true.
+            
+                # Example :
+print(x is y)
+z = x
+print(z)
+print(z is x)            
+
+            # is not :
+            #   is not is also similar to the is operator but it will convert a o/p from true to false
+            #       or false to true.
+
+            # Example :
+print(x is not y) # True
+z = x
+print(z)
+print(z is not x) # False
+
+        # Membership Operators :
+        #   Membership operator is use to verify if string oor object contains any sequential
+        #       value or not.
+        #   This operator return either true or false.
+        #   Two types of operator :
+            # in :
+            #   If value contains then return true else return false.
+
+            # Example :
+str = "Hello World"
+print("H" in str)
+print("llo " in str)
+
+fruit = ["Banana","Apple","Kiwi","Sapota"]
+print("Ban" in fruit) # False
+print("Apple" in fruit)
+
+            # not in :
+            #   Not in return opposite o/p of actual o/p.
+
+            # Example :
+print("H" not in str) # False
+
+print("Ban" not in fruit) # True
+print("Apple" not in fruit) # False
+
+print(fruit[1])
