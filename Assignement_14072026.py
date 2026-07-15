@@ -11,3 +11,21 @@
 #     List
 #     input method
 #     Match expression
+
+list = []
+userdecision = int(input("Enter decision : "))
+
+match userdecision:
+    case 1: # Insert
+        uservalue = input("Enter value : ")
+        list.append(uservalue)
+        print(list)
+    case 2: # Delete
+        list = ["Apple","Mango","Banana"]
+        deletevalue = input("Enter value to delete : ")
+        list.remove(deletevalue)
+        print(list)
+    case _:
+        print("Invalid choice")
+
+print("Outside of match expression")
