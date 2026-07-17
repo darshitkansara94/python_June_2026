@@ -27,5 +27,38 @@ print("End of loop")
 # while a < 6:
 #     print(a)
 
+# Break:
+#    Break statement stop the loop execution and execute code outside of the loop.
+#    We can use the break statement with or without condition or with any other statement.
+
+    # Example :
+print("With break statement")
+j = 0
+while j < 6:
+    print(j)
+    j += 1
+    break
+
+h = 0
+while h < 6:
+    break
+    print(h)
+    h += 1
+
+print("Loop end with break statement")
+
+# Continue :
+#   Continue statement use to execute the loop continue but when condition fulfill with that
+#       it will skip that statement and jump to the next statement.
+
+    # Example 
+k = 0
+while k <= 6:
+    if k == 5: 
+        k+= 1       
+        continue   
+    print(k)
+    k += 1
+
 
 #         for
