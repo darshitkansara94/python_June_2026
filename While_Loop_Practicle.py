@@ -16,9 +16,9 @@ while True:
             print(list)
         case 3:
             i = 0
-            while i < len(list):
-                print(list[i])
-                i += 1
+            while i < len(list): # 0 < 2, 1 < 2, 2 < 2
+                print(list[i]) # list[0] , list[1]
+                i += 1 # i = 1, i = 2
         case 4:
             break
         case _:
