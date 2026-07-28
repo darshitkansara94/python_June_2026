@@ -16,27 +16,31 @@
 
 print("Example of function in python")
 
-def printMessage():
-    print("Hello world")
+def displayMessage(): # Creation of function
+    print("Display function message")
 
-def printSecondMessage():
-    print("Hello world again")
+displayMessage() # Calling and executing function
 
-printMessage()  # Calling the function to print the message
+print("Execute function with param")
+def greeting(message, name):
+    print(message , name)
 
-printSecondMessage()
+value = greeting("Good morning","Darshit")
 
-# Reusable Function
-def printMessageWithName(personName,lastName):
-    print("Hello " + personName + lastName)
+displayMessage()
 
-printMessageWithName("Xyz","abc")
+greeting("Good evening","Abhishek") # calling function second time.
 
-def Addition(number1,number2):
-    return number1 + number2
-    print("This line will not be executed because it is after the return statement")
-    input("Value 1")
-    input("Value 2")
+# Return :
+    # Return statement retrun a value to the function where it start execution.
+    # This is not mandatory.
 
-addition = Addition(10,20)
-print(addition)
+def addition(num1,num2):
+    return num1 + num2 #30
+
+add = addition(10,20) # add = 30
+print(add)
+add1 = addition(20,40) # add1 = 60
+print(add1)
+
+print(add + add1)
