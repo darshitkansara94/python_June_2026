@@ -44,3 +44,16 @@ add1 = addition(20,40) # add1 = 60
 print(add1)
 
 print(add + add1)
+
+print("Pass list into the function by using parameter")
+
+def printList(listValues):
+    for i in listValues:
+        print(i)
+
+list = ["Apple","Banana","Orange"]
+
+# printList(list)
+
+hardware = ["Monitor","Mouse","Keyboard","Headphone"]
+printList(hardware)
