@@ -57,3 +57,21 @@ list = ["Apple","Banana","Orange"]
 
 hardware = ["Monitor","Mouse","Keyboard","Headphone"]
 printList(hardware)
+
+print("Pass multiple values into the function by using parameter")
+def AdditionMultipleValues(value1 = 0,value2 = 0,value3 = 0):
+    return value1 + value2 + value3
+
+add = AdditionMultipleValues(10,20,30) # 60
+print(add)
+additionTwovalues = AdditionMultipleValues(100,200)
+print(additionTwovalues)
+
+withoutvalue = AdditionMultipleValues()
+print(withoutvalue)
+
+def printName(name = 'Unknown'):
+    print("Hello " + name)
+
+printName("Darshit")
+printName()
