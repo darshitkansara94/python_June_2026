@@ -45,3 +45,52 @@ print(z)
 
 a = pow(2,4,2)
 print(a)
+
+# Python also provide some other mathemetical functions.
+# To access those function we need to import math library.
+
+# Types of functions :
+#    1. Square root
+#       Square root function return square root value.
+#       We can access this fuction using math library.
+#       To use this function we need to use 'sqrt' keyword.
+#       
+#       Syntax :
+#           sqrt(value)
+#       
+#    2. Ceiling
+#       Ceiling function use to round a value in upbound.
+#       We can use this function using 'ceil' keyword.
+
+#       Syntax :
+#           ceil(value)
+
+#    3. Floor :
+#       Floor is also use to round a value but this function will round down side.
+#       We can use this function using keyword 'floor'
+
+#       Syntax :
+#           floor(value)
+
+#    4. Pi :
+#       Return pi value.
+
+#       Syntax :
+#           pi
+
+# Example :
+print("Example with the math library")
+
+import math
+
+square_root = math.sqrt(64)
+print(square_root)
+
+ceiling = math.ceil(1.4)
+print(ceiling)
+
+floor = math.floor(1.4)
+print(floor)
+
+pi_value = math.pi
+print(pi_value)
