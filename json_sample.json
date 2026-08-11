@@ -1,0 +1,19 @@
+{
+  "name": "John Doe 1",
+  "age": 30,
+  "email": "john.doe@example.com",
+  "isActive": true,
+  "mobile_no":1234567891,
+  "address": {
+    "street": "123 Main Street",
+    "city": "Vadodara",
+    "state": "Gujarat",
+    "country": "India",
+    "postalCode": "390001"
+  },
+  "skills": [
+    "JavaScript",
+    "Python",
+    "SQL"
+  ]
+}
