@@ -79,3 +79,18 @@
 # 6. Print Student detail
 #     add function in the class with name print_student()
 # 7. by using object we need to call method (print_student())
+
+
+# Assignement(Date : 13 Aug) :
+    # We need to create a class with the name Student.
+        # Create a constructor for the class which contain attribute / property like :
+        #     Student Id,
+        #     Name
+        #     Age,
+        #     Course,
+        #     Marks
+        # Create a function with the name Student_Result() where i can identify the
+        #     result of the student.
+        #         We need to check grades. "A","B","C","D","E","F"
+        # This should be done using user input. Also we need to display a detail
+        #     of the student.
