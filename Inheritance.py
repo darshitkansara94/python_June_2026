@@ -14,3 +14,13 @@
 #             property
 #             method
 
+# Super() :
+    Super is a keyword that indicates to call or use a property and method of
+        parent class.
+    If we have a constructor in both the class or the same method in parent and
+        child class so using super keyword we can call a method or property of parent class.
+    In rela scenerio super keyword always use in a child class.
+
+    
+
+
