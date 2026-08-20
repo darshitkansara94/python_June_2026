@@ -23,4 +23,8 @@
 #     Syntax :
 #         __variable_name
 
+# Get and Set :
+#     Get is use to fetch value from a private property.
+#     Set is use to assign a value to private property.
+
 

@@ -6,15 +6,13 @@ class washing_machine():
     def start(self):
         if not self.__status: # status  = True
             print("Machine started")
-            # self.__status = True
+            self.__status = True
 
     def stop(self):
         # self.__status = True
-        if not self.__status:
+        if self.__status:
             print("Machine is not started")
             # self.__status = False
-
-    
 
 wm = washing_machine() # Status = False
 wm.start()
